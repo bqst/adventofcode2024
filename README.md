@@ -24,18 +24,18 @@ My solutions for [Advent of Code 2024](https://adventofcode.com/2024) puzzles.
 
 ```bash
 # Run latest day
-deno run start
+deno task start
 
 # Run specific day
-deno run start --day=1
+deno task start --day=1
 ```
 
 ### Development
 
 ```bash
 # Watch mode
-deno run dev
+deno task dev
 
 ## Test
-deno run test
+deno task test
 ```
