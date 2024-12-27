@@ -8,6 +8,7 @@ My solutions for [Advent of Code 2024](https://adventofcode.com/2024) puzzles.
 
 ## Project Structure
 
+```plaintext
 ├── dayXX/
 │ ├── input.txt # Puzzle input
 │ ├── input_test.txt # Example input
@@ -15,6 +16,7 @@ My solutions for [Advent of Code 2024](https://adventofcode.com/2024) puzzles.
 │ └── main_test.ts # Tests
 ├── deno.json # Deno configuration
 └── main.ts # Entry point
+```
 
 ## Commands
 
