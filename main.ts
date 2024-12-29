@@ -4,7 +4,7 @@ import { parseArgs } from "jsr:@std/cli/parse-args";
 if (import.meta.main) {
   const flags = parseArgs(Deno.args);
 
-  const day = flags.day?.toString().padStart(2, "0") ?? "05";
+  const day = flags.day?.toString().padStart(2, "0") ?? "06";
 
   const input = Deno.readTextFileSync(`day${day}/input.txt`);
 
